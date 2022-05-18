@@ -1,0 +1,63 @@
+
+.image-social {
+    width: 45x;
+    height: 45px;
+    padding-right: 30px;
+
+}
+
+.social {
+    position:fixed;
+    padding:0;
+    right:0px;
+    bottom:50px;
+    ul {
+        list-style: none;
+        padding:0;
+        transform: translate(230px, 0);
+    }
+    li {
+        display: flex;
+        margin:0;
+        padding-right:20px;
+        border-spacing: 0ch;
+        align-items: center;
+        color: white;
+        text-decoration: underline;
+        text-align: right;
+        transition: all 1s;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .blog {
+        background-color: #F06A35;
+        &:hover {
+            transform: translate(-230px, 0);
+        }
+    }
+    .twitter {
+        background-color: #50ABF1;
+        &:hover {
+            transform: translate(-230px, 0);
+        }
+    }
+    .linkedin {
+        background-color: #037BB5;
+        &:hover {
+            transform: translate(-230px, 0);
+        }
+    }
+    .facebook {
+        background-color: #3B5997;
+        &:hover {
+            transform: translate(-230px, 0);
+        }
+    }
+    .github {
+        background-color: black;
+        &:hover {
+            transform: translate(-230px, 0);
+        }
+    }
+
+}
+

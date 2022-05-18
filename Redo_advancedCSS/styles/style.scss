@@ -1,0 +1,9 @@
+@import "./setColors";
+@import "./social";
+@import "./testimonial";
+@import "./portfolio";
+
+body {
+    max-height: 100%;
+    background-color: $colorBackground;
+}
